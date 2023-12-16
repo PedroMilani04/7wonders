@@ -4,7 +4,7 @@
     height: 300vh;
     width: 100vw;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .containers {
@@ -61,6 +61,7 @@
     text-align: left;
     margin-left: 10vw;
     padding: 5em;
+    z-index: 10;
 }
 
 .title {
@@ -78,8 +79,17 @@
 }
 
 .contest {
-    background-color: aquamarine;
-    height: 100vh;
+    background-color: antiquewhite;
+    position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    width: 100%; /* Adjust the width as needed */
+    height: 115vh; /* Adjust the height as needed */
+    z-index: -11;
+}
 
+@media(max-width: 1025px) {
+    .title {
+        font-size: 11em;
+    }
+   
 }
