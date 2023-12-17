@@ -32,7 +32,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
     width: 100%; /* Adjust the width as needed */
     height: 115vh; /* Adjust the height as needed */
     z-index: -1;
@@ -79,12 +79,41 @@
 }
 
 .contest {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 100% 100%, 0 70%);
     width: 100%; /* Adjust the width as needed */
-    height: 115vh; /* Adjust the height as needed */
+    height: 190vh; /* Adjust the height as needed */
     z-index: -11;
+    margin-top: -20vh;
+}
+
+.contest1 {
+    background: url('https://c.wallhere.com/photos/fe/b5/1800x1200_px_Lofoten_mountains_Norway-1226848.jpg!d') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%, 0 100%);
+    width: 100%; /* Adjust the width as needed */
+    height: 160vh; /* Adjust the height as needed */
+    z-index: -12;
+    margin-top: 90vh;
+}
+
+.contest2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 100% 100%, 0 100%);
+    width: 100%; /* Adjust the width as needed */
+    height: 160vh; /* Adjust the height as needed */
+    z-index: -13;
+    margin-top: 180vh;
+}
+
+.app-footer {
+    width: 100%;
+    position: absolute;
+    margin-top: 330vh;
+    
 }
 
 @media(max-width: 1025px) {
