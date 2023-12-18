@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
 .content {
     height: 300vh;
     width: 100vw;
@@ -69,6 +71,7 @@
     margin: -20px;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 10px;
+    margin-top: 5vh;
 }
 
 .subtitle {
@@ -114,6 +117,85 @@
     position: absolute;
     margin-top: 330vh;
     
+}
+
+/* cores */
+.core {
+    color: rgb(0, 0, 0);
+    margin-top: 60vh;
+    display: flex;
+    scale: 1.15;
+}
+.corecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.corecontent h1 {
+    font-size: 5em;
+    color: rgb(121, 100, 61);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.corecontent h2 {
+    font-size: 5em;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.pcontainer {
+    margin-top: 5vh;
+    display: flex;
+    width: 60%;
+    column-gap: 5%;
+}
+
+.corecontent p {
+    font-family: 'Kalnia', serif;
+    font-size: 1.3em;
+}
+
+/* ------ ------ ------ ------ ------ */
+
+.core1 {
+    color: white;
+    margin-top: 85vh;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.core1 h1 {
+    color: rgb(148, 123, 78);
+
+    margin: 0;
+}
+
+.core1 h2 {
+    margin: 0;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+
+/* ------ ------ ------ ------ ------ */
+
+
+.core2 {
+    color: rgb(0, 0, 0);
+    margin-top: 100vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(max-width: 1025px) {
