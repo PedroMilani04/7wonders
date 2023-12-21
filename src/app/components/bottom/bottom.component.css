@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
+
+.bottom {
+    position: absolute;
+    margin-top: 255vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.6em;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.img-container {
+    display: flex;
+    column-gap: 3vw;
+}
+
+img {
+    width: 25vw;
+    height: 30vh;
+    transition: ease-in-out .5s;
+    border-radius: 20px;
+}
+
+img:hover {
+    scale: 1.05;
+}
