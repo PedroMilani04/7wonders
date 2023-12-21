@@ -212,3 +212,41 @@
     }
    
 }
+
+@media(max-width: 1441px) {
+   .core1 {
+    margin-top: 65vh;
+    width: 70%;
+   }
+
+   .core1 p {
+    font-size: .35em;
+   }
+   .core {
+   
+    scale: 1;
+   }
+    
+}
+
+@media(max-width: 1025px) {
+    .core1 {
+     width: 80%;
+    }
+ 
+    .core1 p {
+     font-size: .35em;
+    }
+    .core1 h1 {
+        font-size: 2em;
+       }
+       .core1 h2 {
+        font-size: 1em;
+       }
+    .core p{
+    
+     font-size: 1em;
+    }
+     
+ }
+ 
