@@ -172,3 +172,61 @@ figure.effect-lily:hover p {
 	  
   }
   
+   
+ @media(max-width: 800px) {
+	.grid {
+		flex-direction: column;
+	}
+	.grid figure {
+		max-width: 50vw;
+		width: 50vw;
+	}
+
+	
+  }
+  
+  @media(max-width: 500px) {
+	.bottom {
+		margin-top: 300vh;
+	}
+
+	.agadois {
+		font-size: .8em;
+		margin-bottom: 4vh;
+	}
+	.grid figure {
+		max-width: 70vw;
+		width: 70vw;
+	}
+
+	
+  }
+
+   
+  @media(max-width: 330px) {
+	.bottom {
+		margin-top: 300vh;
+		text-align: center;
+	}
+
+	.agadois {
+		font-size: .8em;
+		margin-bottom: 4vh;
+	}
+	.grid figure {
+		max-width: 70vw;
+		width: 70vw;
+	}
+	.h2img {
+		font-size: .4em;
+		
+	 }
+
+	 figure.effect-lily figcaption > div {
+	
+		padding: 2em;
+		padding-left: 1em;
+	}
+
+	
+  }

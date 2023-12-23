@@ -35,8 +35,10 @@
     bottom: 0;
     left: 0;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
-    width: 100%; /* Adjust the width as needed */
-    height: 115vh; /* Adjust the height as needed */
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 115vh;
+    /* Adjust the height as needed */
     z-index: -1;
 }
 
@@ -85,8 +87,10 @@
     background-color: rgb(255, 255, 255);
     position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 100% 100%, 0 70%);
-    width: 100%; /* Adjust the width as needed */
-    height: 190vh; /* Adjust the height as needed */
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 190vh;
+    /* Adjust the height as needed */
     z-index: -11;
     margin-top: -20vh;
 }
@@ -96,8 +100,10 @@
     background-size: cover;
     position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%, 0 100%);
-    width: 100%; /* Adjust the width as needed */
-    height: 160vh; /* Adjust the height as needed */
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 160vh;
+    /* Adjust the height as needed */
     z-index: -12;
     margin-top: 90vh;
 }
@@ -106,8 +112,10 @@
     background-color: rgb(255, 255, 255);
     position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 100% 100%, 0 100%);
-    width: 100%; /* Adjust the width as needed */
-    height: 160vh; /* Adjust the height as needed */
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 160vh;
+    /* Adjust the height as needed */
     z-index: -13;
     margin-top: 180vh;
 }
@@ -116,7 +124,7 @@
     width: 100%;
     position: absolute;
     margin-top: 330vh;
-    
+
 }
 
 /* cores */
@@ -126,6 +134,7 @@
     display: flex;
     scale: 1.15;
 }
+
 .corecontent {
     display: flex;
     flex-direction: column;
@@ -210,43 +219,174 @@
     .title {
         font-size: 11em;
     }
-   
+
 }
 
 @media(max-width: 1441px) {
-   .core1 {
-    margin-top: 65vh;
-    width: 70%;
-   }
+    .core1 {
+        margin-top: 65vh;
+        width: 70%;
+    }
 
-   .core1 p {
-    font-size: .35em;
-   }
-   .core {
-   
-    scale: 1;
-   }
-    
+    .core1 p {
+        font-size: .35em;
+    }
+
+    .core {
+
+        scale: 1;
+    }
+
 }
 
 @media(max-width: 1025px) {
     .core1 {
-     width: 80%;
+        width: 80%;
     }
- 
+
     .core1 p {
-     font-size: .35em;
+        font-size: .35em;
     }
+
     .core1 h1 {
         font-size: 2em;
-       }
-       .core1 h2 {
-        font-size: 1em;
-       }
-    .core p{
-    
-     font-size: 1em;
     }
-     
- }
- 
+
+    .core1 h2 {
+        font-size: 1em;
+    }
+
+    .core p {
+
+        font-size: 1em;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .containers h1 {
+        font-size: 8em;
+    }
+
+    .containers h3 {
+        font-size: 3em;
+    }
+
+    .corecontent1 {
+        width: 85%;
+        scale: .9;
+    }
+
+    .corecontent {
+        scale: .9;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+    .container1 {
+        width: 50%;
+    }
+    .title {
+        display: inline-block;
+        word-wrap: break-word;
+        line-height: 12vh;
+
+    }
+
+    .containers h1 {
+        font-size: 7em;
+        margin-bottom: 1vh;
+    }
+
+    .containers h3 {
+        font-size: 1.5em;
+    }
+
+    .corecontent1 {
+        width: 65%;
+        scale: .9;
+    }
+
+    .contest {
+        margin-top: -40vh;
+    }
+
+    .corecontent {
+        scale: .9;
+    }
+
+    .core1 {
+        margin-top: 30vh;
+        width: 80%;
+    }
+
+
+    .core h1 {
+        font-size: 5em;
+        text-align: center;
+    }
+
+    .core h2 {
+        font-size: 2.5em;
+        text-align: center;
+
+    }
+
+    .contest {
+        height: 230vh;
+    }
+
+    .contest1 {
+        margin-top: 120vh;
+    }
+
+    .contest1 p {
+        width: 140%;
+    }
+
+    .core1 {
+        margin-top: 40vh;
+    }
+
+    .pcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .container1 {
+        width: 45%;
+    }
+
+    .corecontent {
+        scale: .8;
+    }
+    .corecontent p {
+        width: 130%;
+        margin-left: -6vw;
+    }
+    .corecontent1 {
+        scale: .85;
+
+    }
+}
+
+
+@media(max-width: 330px) {
+    .container1 {
+        width: 40%;
+    }
+
+    .container1 h1 {
+        font-size: 6em;
+    }
+
+    .corecontent1 {
+        scale: .75;
+    }
+   
+}

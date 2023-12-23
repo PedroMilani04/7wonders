@@ -49,3 +49,15 @@ footer {
     margin-top: 20px;
     text-align: center;
   }
+
+  @media(max-width: 800px) {
+    footer {
+      margin-top: 50vh;
+    }
+  }
+
+  @media(max-width: 500px) {
+    footer {
+      margin-top: 70vh;
+    }
+  }
