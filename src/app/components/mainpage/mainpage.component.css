@@ -36,10 +36,9 @@
     left: 0;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
     width: 100%;
-    /* Adjust the width as needed */
     height: 115vh;
-    /* Adjust the height as needed */
     z-index: -1;
+    filter: grayscale(20%);
 }
 
 .background-image {
@@ -66,6 +65,7 @@
     margin-left: 10vw;
     padding: 5em;
     z-index: 10;
+    scale: .85;
 }
 
 .title {
@@ -106,6 +106,8 @@
     /* Adjust the height as needed */
     z-index: -12;
     margin-top: 90vh;
+    filter: grayscale(30%);
+
 }
 
 .contest2 {
@@ -141,6 +143,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    scale: .9;
 }
 
 .corecontent h1 {
@@ -169,6 +172,10 @@
 .corecontent p {
     font-family: 'Kalnia', serif;
     font-size: 1.3em;
+}
+
+.corecontent1 {
+    scale: .9;
 }
 
 .corecontent1 p {
@@ -311,6 +318,7 @@
 
     .contest {
         margin-top: -40vh;
+
     }
 
     .corecontent {

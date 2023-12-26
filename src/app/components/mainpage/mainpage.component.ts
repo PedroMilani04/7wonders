@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from '../navbar/navbar.component'; 
+import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { CarouselModule } from 'primeng/carousel';
 import { BottomComponent } from '../bottom/bottom.component';
@@ -18,4 +18,5 @@ export class MainpageComponent {
 
   ngOnInit() {
     AOS.init();
-  }}
+  }
+}

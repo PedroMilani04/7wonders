@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import AOS from 'aos'
 
 @Component({
   selector: 'app-bottom',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './bottom.component.css'
 })
 export class BottomComponent {
-
+  ngOnInit() {
+    AOS.init();
+  }
 }
