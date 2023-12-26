@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
+.content {
+    height: 300vh;
+    width: 100vw;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.containers {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: left;
+    column-gap: 12vw;
+    color: white;
+}
+
+.containers:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 90vh;
+    left: 0;
+    z-index: -1;
+}
+
+.background-image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 115vh;
+    /* Adjust the height as needed */
+    z-index: -1;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background: url('https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+}
+
+/* Rest of your styles remain unchanged */
+
+
+
+.container1 {
+    color: white;
+    height: 45%;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10vw;
+    padding: 5em;
+    z-index: 10;
+}
+
+.title {
+    font-size: 16em;
+    margin: -20px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 10px;
+    margin-top: 3vh;
+}
+
+.subtitle {
+    font-size: 4em;
+    margin: -20px;
+    letter-spacing: 3px;
+    font-family: 'Kalnia', serif;
+}
+
+.contest {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 100% 100%, 0 70%);
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 190vh;
+    /* Adjust the height as needed */
+    z-index: -11;
+    margin-top: -20vh;
+}
+
+.contest1 {
+    background: url('https://c.wallhere.com/photos/fe/b5/1800x1200_px_Lofoten_mountains_Norway-1226848.jpg!d') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%, 0 100%);
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 160vh;
+    /* Adjust the height as needed */
+    z-index: -12;
+    margin-top: 90vh;
+}
+
+.contest2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 100% 100%, 0 100%);
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 160vh;
+    /* Adjust the height as needed */
+    z-index: -13;
+    margin-top: 180vh;
+}
+
+.app-footer {
+    width: 100%;
+    position: absolute;
+    margin-top: 330vh;
+
+}
+
+/* cores */
+.core {
+    color: rgb(0, 0, 0);
+    margin-top: 60vh;
+    display: flex;
+    scale: 1.15;
+}
+
+.corecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.corecontent h1 {
+    font-size: 5em;
+    color: rgb(121, 100, 61);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.corecontent h2 {
+    font-size: 5em;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.pcontainer {
+    margin-top: 5vh;
+    display: flex;
+    width: 60%;
+    column-gap: 5%;
+}
+
+.corecontent p {
+    font-family: 'Kalnia', serif;
+    font-size: 1.3em;
+}
+
+.corecontent1 p {
+    width: 70%;
+    font-family: 'Kalnia', serif;
+    font-size: .4em;
+}
+
+/* ------ ------ ------ ------ ------ */
+
+.core1 {
+    color: white;
+    margin-top: 75vh;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.core1 h1 {
+    color: rgb(148, 123, 78);
+
+    margin: 0;
+}
+
+.core1 h2 {
+    margin: 0;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+
+/* ------ ------ ------ ------ ------ */
+
+
+.core2 {
+    color: rgb(0, 0, 0);
+    margin-top: 100vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width: 1025px) {
+    .title {
+        font-size: 11em;
+    }
+
+}
+
+@media(max-width: 1441px) {
+    .core1 {
+        margin-top: 65vh;
+        width: 70%;
+    }
+
+    .core1 p {
+        font-size: .35em;
+    }
+
+    .core {
+
+        scale: 1;
+    }
+
+}
+
+@media(max-width: 1025px) {
+    .core1 {
+        width: 80%;
+    }
+
+    .core1 p {
+        font-size: .35em;
+    }
+
+    .core1 h1 {
+        font-size: 2em;
+    }
+
+    .core1 h2 {
+        font-size: 1em;
+    }
+
+    .core p {
+
+        font-size: 1em;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .containers h1 {
+        font-size: 8em;
+    }
+
+    .containers h3 {
+        font-size: 3em;
+    }
+
+    .corecontent1 {
+        width: 85%;
+        scale: .9;
+    }
+
+    .corecontent {
+        scale: .9;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+    .container1 {
+        width: 50%;
+    }
+    .title {
+        display: inline-block;
+        word-wrap: break-word;
+        line-height: 12vh;
+
+    }
+
+    .containers h1 {
+        font-size: 7em;
+        margin-bottom: 1vh;
+    }
+
+    .containers h3 {
+        font-size: 1.5em;
+    }
+
+    .corecontent1 {
+        width: 65%;
+        scale: .9;
+    }
+
+    .contest {
+        margin-top: -40vh;
+    }
+
+    .corecontent {
+        scale: .9;
+    }
+
+    .core1 {
+        margin-top: 30vh;
+        width: 80%;
+    }
+
+
+    .core h1 {
+        font-size: 5em;
+        text-align: center;
+    }
+
+    .core h2 {
+        font-size: 2.5em;
+        text-align: center;
+
+    }
+
+    .contest {
+        height: 230vh;
+    }
+
+    .contest1 {
+        margin-top: 120vh;
+    }
+
+    .contest1 p {
+        width: 140%;
+    }
+
+    .core1 {
+        margin-top: 40vh;
+    }
+
+    .pcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .container1 {
+        width: 45%;
+    }
+
+    .corecontent {
+        scale: .8;
+    }
+    .corecontent p {
+        width: 130%;
+        margin-left: -6vw;
+    }
+    .corecontent1 {
+        scale: .85;
+
+    }
+}
+
+
+@media(max-width: 330px) {
+    .container1 {
+        width: 40%;
+    }
+
+    .container1 h1 {
+        font-size: 6em;
+    }
+
+    .corecontent1 {
+        scale: .75;
+    }
+   
+}
