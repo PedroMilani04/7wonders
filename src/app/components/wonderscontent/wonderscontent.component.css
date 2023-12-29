@@ -1,0 +1,74 @@
+.wonderscontent {
+    background-color: rgb(255, 255, 255);
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wonders {
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.wonder1 {
+    background-color: aliceblue;
+    
+}
+
+.wonder2 {
+    background-color: rgb(74, 89, 102);
+}
+
+.wonder3 {
+    background-color: rgb(26, 111, 185);
+}
+
+.wonder4 {
+    background-color: rgb(131, 146, 158);
+}
+
+.wonder5 {
+    background-color: rgb(19, 130, 226);
+}
+
+.wonder6 {
+    background-color: rgb(18, 61, 99);
+}
+
+.wonder7 {
+    background-color: rgb(153, 177, 199);
+}
+
+.imageinfo {
+    width: 50%;
+    background-color: rgb(99, 160, 135);
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    scale: .9;
+
+}
+
+.info {
+    width: 50%;
+    margin: 5em 5em 5em 0;
+    scale: .9;
+
+    background-color: rgb(22, 233, 145);
+
+}
+
+.img {
+    height: 65%;
+    background-color: blanchedalmond;
+}
+
+.innerinfo {
+    background-color: rgba(218, 150, 49, 0.795);
+
+    height: 35%;
+}
