@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
 .wonderscontent {
     background-color: rgb(255, 255, 255);
     height: 300vh;
@@ -6,6 +10,33 @@
 }
 
 .wonders {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15vh;
+}
+
+
+.info h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+
+
+p {
+    font-family: 'Kalnia', serif;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7em;
+}
+
+span {
+    font-family: 'Kalnia', serif;
+    font-weight: 400;
+
 }
 
 .container {
@@ -15,37 +46,35 @@
 }
 
 .wonder1 {
-    background-color: aliceblue;
-    
+    background-color: rgb(255, 255, 255);
 }
 
 .wonder2 {
-    background-color: rgb(74, 89, 102);
+    background-color: rgb(255, 255, 255);
 }
 
 .wonder3 {
-    background-color: rgb(26, 111, 185);
+    background-color: rgb(255, 255, 255);
 }
 
 .wonder4 {
-    background-color: rgb(131, 146, 158);
+    background-color: rgb(255, 255, 255);
 }
 
 .wonder5 {
-    background-color: rgb(19, 130, 226);
+    background-color: rgb(255, 255, 255);
 }
 
 .wonder6 {
-    background-color: rgb(18, 61, 99);
+    background-color: rgb(255, 255, 255);
 }
 
 .wonder7 {
-    background-color: rgb(153, 177, 199);
+    background-color: rgb(255, 255, 255);
 }
 
 .imageinfo {
     width: 50%;
-    background-color: rgb(99, 160, 135);
     margin: 5em;
     display: flex;
     flex-direction: column;
@@ -58,17 +87,16 @@
     margin: 5em 5em 5em 0;
     scale: .9;
 
-    background-color: rgb(22, 233, 145);
 
 }
 
 .img {
     height: 65%;
-    background-color: blanchedalmond;
+    background-color: rgb(89, 131, 187);
+    border-radius: 20px;
 }
 
 .innerinfo {
-    background-color: rgba(218, 150, 49, 0.795);
 
     height: 35%;
 }
