@@ -46,47 +46,65 @@ span {
 }
 
 .wonder1 {
-    background-color: rgb(255, 255, 255);
+    background: url("https://lp-cms-production.imgix.net/2020-11/GettyRF_1085205362.jpg");
+    background-size: cover;
+    
 }
 
 .wonder2 {
-    background-color: rgb(255, 255, 255);
+    margin-top: -15vh;
+    background: url("https://cdnb.artstation.com/p/assets/images/images/058/183/187/large/nasr-vfx-frame-comp-v002.jpg?1673561411");
+    background-size: cover;
 }
 
 .wonder3 {
-    background-color: rgb(255, 255, 255);
-}
+    margin-top: -15vh;
+    background: url("https://i.redd.it/zmbbt3gwipe21.jpg");
+    background-size: cover;}
 
 .wonder4 {
-    background-color: rgb(255, 255, 255);
-}
+    margin-top: -15vh;
+    background: url("https://miro.medium.com/v2/resize:fit:1400/1*v1mxnJ0-qgCbJoVkJZOMNQ.jpeg");
+
+    background-size: cover;}
+
+    
 
 .wonder5 {
-    background-color: rgb(255, 255, 255);
-}
+    margin-top: -15vh;
+    background: url("https://www.worldhistory.org/uploads/images/12902.png");
+    background-size: cover;}
 
 .wonder6 {
-    background-color: rgb(255, 255, 255);
-}
+    margin-top: -15vh;
+    background: url("https://wallpapercave.com/wp/wp10147436.jpg");
+    background-size: cover;}
 
 .wonder7 {
-    background-color: rgb(255, 255, 255);
-}
+    margin-top: -15vh;
+    background: url("https://www.worldhistory.org/img/c/p/1600x900/7615.jpg");
+    background-size: cover;}
 
 .imageinfo {
     width: 50%;
-    margin: 5em;
     display: flex;
     flex-direction: column;
     scale: .9;
-
+    text-align: right;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    
 }
 
 .info {
     width: 50%;
-    margin: 5em 5em 5em 0;
     scale: .9;
-
+    margin-left: 10vw;
+    margin-top: 10vh;
+    background-color: rgba(255, 255, 255, 0.486);
+    height: 75%;
+    padding: 1em;
+    border-radius: 20px;
 
 }
 
@@ -99,4 +117,8 @@ span {
 .innerinfo {
 
     height: 35%;
+}
+
+.imageinfo {
+    color: rgb(255, 255, 255);
 }

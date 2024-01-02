@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "@coreui/angular": "^4.7.3",
+    "@coreui/angular": "^4.7.8",
     "aos": "^2.3.4",
     "primeng": "^17.1.0",
     "rxjs": "~7.8.0",
