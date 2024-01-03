@@ -4,10 +4,11 @@
 
 .wonderscontent {
     background-color: rgb(255, 255, 255);
-    height: 300vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-}
+/*     overflow-y: hidden;
+ */}
 
 .wonders {
     display: flex;
@@ -30,12 +31,15 @@ p {
 
 h3 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.7em;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 span {
     font-family: 'Kalnia', serif;
     font-weight: 400;
+    font-size: .8em;
 
 }
 
@@ -48,8 +52,16 @@ span {
 .wonder1 {
     background: url("https://lp-cms-production.imgix.net/2020-11/GettyRF_1085205362.jpg");
     background-size: cover;
-    
+
 }
+
+.black {
+    display: flex;
+    background: rgba(0, 0, 0, 0.151);
+    box-shadow: 0 8px 32px 0 rgba(49, 49, 49, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;}
 
 .wonder2 {
     margin-top: -15vh;
@@ -60,52 +72,47 @@ span {
 .wonder3 {
     margin-top: -15vh;
     background: url("https://i.redd.it/zmbbt3gwipe21.jpg");
-    background-size: cover;}
+    background-size: cover;
+}
 
 .wonder4 {
     margin-top: -15vh;
     background: url("https://miro.medium.com/v2/resize:fit:1400/1*v1mxnJ0-qgCbJoVkJZOMNQ.jpeg");
 
-    background-size: cover;}
+    background-size: cover;
+}
 
-    
+
 
 .wonder5 {
     margin-top: -15vh;
     background: url("https://www.worldhistory.org/uploads/images/12902.png");
-    background-size: cover;}
+    background-size: cover;
+}
 
 .wonder6 {
     margin-top: -15vh;
     background: url("https://wallpapercave.com/wp/wp10147436.jpg");
-    background-size: cover;}
+    background-size: cover;
+}
 
 .wonder7 {
     margin-top: -15vh;
     background: url("https://www.worldhistory.org/img/c/p/1600x900/7615.jpg");
-    background-size: cover;}
-
-.imageinfo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    scale: .9;
-    text-align: right;
-    margin-right: 10vw;
-    margin-top: 10vh;
-    
+    background-size: cover;
 }
 
+
 .info {
-    width: 50%;
+    width: 40%;
     scale: .9;
     margin-left: 10vw;
     margin-top: 10vh;
-    background-color: rgba(255, 255, 255, 0.486);
     height: 75%;
-    padding: 1em;
+    padding: 3em 5em 2em 5em;
     border-radius: 20px;
-
+   
+    color: rgb(228, 228, 228);
 }
 
 .img {
@@ -114,11 +121,52 @@ span {
     border-radius: 20px;
 }
 
-.innerinfo {
 
-    height: 35%;
-}
+
 
 .imageinfo {
-    color: rgb(255, 255, 254);
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: white;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+
 }
+.innerinfo {
+    margin-right: 10vw;
+    margin-top: 20vh;
+    scale: 1.1;
+    
+}
+
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #c5c5c5;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.scroll-button:hover {
+    background-color: #2980b9;
+    
+}
+
+.back {
+    margin-left: 10vw;
+    position: fixed;
+    bottom: 20px;
+    right: 7vw;
+}
+
+.button-container {
+    display: flex;
+  }
