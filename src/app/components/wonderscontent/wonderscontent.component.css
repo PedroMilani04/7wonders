@@ -52,13 +52,12 @@ span {
 .wonder1 {
     background: url("https://lp-cms-production.imgix.net/2020-11/GettyRF_1085205362.jpg");
     background-size: cover;
-
+    border-bottom: 2px solid white;
 }
 
 .black {
     display: flex;
     background: rgba(0, 0, 0, 0.151);
-    box-shadow: 0 8px 32px 0 rgba(49, 49, 49, 0.37);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(11.5px);
     border-radius: 10px;}
@@ -67,17 +66,22 @@ span {
     margin-top: -15vh;
     background: url("https://cdnb.artstation.com/p/assets/images/images/058/183/187/large/nasr-vfx-frame-comp-v002.jpg?1673561411");
     background-size: cover;
+    border-bottom: 2px solid white;
+
 }
 
 .wonder3 {
     margin-top: -15vh;
     background: url("https://i.redd.it/zmbbt3gwipe21.jpg");
     background-size: cover;
+    border-bottom: 2px solid white;
+
 }
 
 .wonder4 {
     margin-top: -15vh;
     background: url("https://miro.medium.com/v2/resize:fit:1400/1*v1mxnJ0-qgCbJoVkJZOMNQ.jpeg");
+    border-bottom: 2px solid white;
 
     background-size: cover;
 }
@@ -88,25 +92,30 @@ span {
     margin-top: -15vh;
     background: url("https://www.worldhistory.org/uploads/images/12902.png");
     background-size: cover;
+    border-bottom: 2px solid white;
+
 }
 
 .wonder6 {
     margin-top: -15vh;
     background: url("https://wallpapercave.com/wp/wp10147436.jpg");
     background-size: cover;
+    border-bottom: 2px solid white;
+
 }
 
 .wonder7 {
     margin-top: -15vh;
     background: url("https://www.worldhistory.org/img/c/p/1600x900/7615.jpg");
     background-size: cover;
+    
 }
 
 
 .info {
-    width: 40%;
+    width: 60%;
     scale: .9;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: 10vh;
     height: 75%;
     padding: 3em 5em 2em 5em;
@@ -126,7 +135,6 @@ span {
 
 .imageinfo {
     width: 60%;
-    
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -134,9 +142,18 @@ span {
     clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
 
 }
+.imageinfo1 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 100%, 0 0%);
+
+}
 .innerinfo {
-    margin-right: 10vw;
-    margin-top: 20vh;
+    margin-right: 6vw;
+    margin-top: 13vh;
     scale: 1.1;
     
 }
@@ -145,7 +162,7 @@ span {
     position: fixed;
     bottom: 20px;
     right: 40px;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     background-color: #c5c5c5;
     color: #fff;
@@ -153,6 +170,7 @@ span {
     border-radius: 50%;
     padding: 15px;
     transition: background-color 0.3s;
+    scale: .8;
 }
 
 .scroll-button:hover {
