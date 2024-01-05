@@ -240,13 +240,21 @@ span {
 @media(max-width: 500px) {
    .container {
     height: 300vh;
-    width: 150vw;
+    width: 130vw;
    }
 
    p {
     font-size: 1.4em;
    }
   
+   .imageinfo {
+    display: none;
+   }
+   .imageinfo1 {
+    display: none;
+   }
+
+
    .innerinfo {
     scale: 1;
     margin-right: 3vw;
