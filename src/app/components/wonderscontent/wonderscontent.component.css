@@ -267,29 +267,3 @@ span {
     margin-bottom: 35vh;
    }
 }
-
-@media(max-width: 400px) {
-    .container {
-     height: 330vh;
-     width: 200vw;
-    }
-    
-    
-    p {
-     font-size: 1.5em;
-    }
-   
-    .innerinfo {
-     scale: 1;
-     margin-right: 3vw;
-     margin-top: 15vh;
-    }
-
-    .imageinfo {
-        width: 55%;
-    }
-
-    .back {
-        right: 30vw;
-    }
- }
