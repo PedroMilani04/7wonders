@@ -240,7 +240,7 @@ span {
 @media(max-width: 500px) {
    .container {
     height: 300vh;
-    width: 130vw;
+    width: 100%;
    }
 
    p {
