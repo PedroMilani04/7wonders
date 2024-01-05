@@ -239,7 +239,7 @@ span {
 
 @media(max-width: 500px) {
    .container {
-    height: 300vh;
+    height: 350vh;
     width: 100%;
    }
 
@@ -274,10 +274,19 @@ span {
    h3 {
     margin-bottom: 35vh;
    }
+   .black {
+    background-color: rgba(0, 0, 0, 0.401);
+   }
+}
+
+@media(max-width: 380px) {
+    .container {
+        height: 400vh;
+    }
 }
 
 @media(max-width: 350px) {
-    .container {
-        width: 118%;
-    }
+   .container {
+    width: 118%;
+   }
 }
