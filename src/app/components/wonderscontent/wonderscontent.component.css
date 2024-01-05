@@ -243,6 +243,10 @@ span {
     width: 100%;
    }
 
+   .black {
+    width: 100%;
+   }
+
    p {
     font-size: 1.4em;
    }
@@ -263,7 +267,17 @@ span {
     
    }
 
+   .info {
+    width: 60%;
+   }
+
    h3 {
     margin-bottom: 35vh;
    }
+}
+
+@media(max-width: 350px) {
+    .container {
+        width: 118%;
+    }
 }
