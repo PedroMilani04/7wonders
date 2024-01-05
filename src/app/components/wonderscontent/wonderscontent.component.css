@@ -188,3 +188,100 @@ span {
 .button-container {
     display: flex;
   }
+
+
+@media(max-width: 1441px) {
+    .info {
+        width: 110%;
+        margin-left: -2vw;
+    }
+    .innerinfo {
+        scale: .8;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 1030px) {
+    .info {
+        width: 110%;
+        margin-left: -2vw;
+    }
+    .innerinfo {
+        scale: .8;
+        margin-right: 0;
+        margin-top: -2vh;
+    }
+    p {
+        font-size: .85em;
+    }
+}
+
+@media(max-width: 800px) {
+    .imageinfo {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+
+    .imageinfo1 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+
+    .container {
+        height: 150vh;
+    }
+
+    .back {
+        right: 17vw;
+    }
+    
+}
+
+@media(max-width: 500px) {
+   .container {
+    height: 300vh;
+    width: 150vw;
+   }
+
+   p {
+    font-size: 1.4em;
+   }
+  
+   .innerinfo {
+    scale: 1;
+    margin-right: 3vw;
+    margin-top: 15vh;
+    height: 280vh;
+    
+   }
+
+   h3 {
+    margin-bottom: 35vh;
+   }
+}
+
+@media(max-width: 400px) {
+    .container {
+     height: 330vh;
+     width: 200vw;
+    }
+    
+    
+    p {
+     font-size: 1.5em;
+    }
+   
+    .innerinfo {
+     scale: 1;
+     margin-right: 3vw;
+     margin-top: 15vh;
+    }
+
+    .imageinfo {
+        width: 55%;
+    }
+
+    .back {
+        right: 30vw;
+    }
+ }
