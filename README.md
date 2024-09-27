@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
+# 7 Wonders - Learning Angular and CSS Practices
+
+This project is a web application called **7 Wonders**, developed using **Angular 17**. It focuses on enhancing skills in both **Angular framework** and **CSS** design practices. The project aims to provide a practical, hands-on experience while building a functional and visually appealing application.
+
+## Features
+- **Angular 17**: Modern component-based architecture.
+- **CSS Styling**: Responsive and adaptive design using modern CSS techniques.
+- **Learning-Oriented**: Aimed at improving knowledge in Angular and front-end design.
+
+## Purpose
+This project is designed for those learning Angular and looking to implement advanced CSS styling practices in a real-world application.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
